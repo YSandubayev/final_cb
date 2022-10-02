@@ -1,0 +1,26 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nlpjs/basic": "^4.23.5",
+    "@nlpjs/directline-connector": "^4.23.4",
+    "@nlpjs/express-api-server": "^4.23.4",
+    "@nlpjs/lang-es": "^4.23.4",
+    "@nlpjs/utils": "^4.24.1",
+    "ejs": "^3.1.8",
+    "engine": "^1.0.0",
+    "express": "^4.18.1",
+    "jade": "^1.11.0",
+    "node-telegram-bot-api": "^0.59.0",
+    "nodemon": "^2.0.20",
+    "telegraf": "^4.9.2"
+  },
+  "description": ""
+}
